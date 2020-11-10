@@ -110,8 +110,8 @@ struct wpas {
 // below. This is needed to get the gateway working
 //
 wpas wpa[] = {
-	{ "yourSSID", "yourPassword" },
-	{ "Your2SSID", "your2Password" }
+	{ "DNS160", "onomatopoetikon" },
+	{ "DNS160", "onomatopoetikon" }
 };
 
 
@@ -133,12 +133,12 @@ wpas wpa[] = {
 
 
 // Gateway Ident definitions. Where is the gateway located?
-#define _DESCRIPTION "ESP Gateway"			// Name of the gateway
-#define _EMAIL "mw12554@hotmail.com"		// Owner
+#define _DESCRIPTION "MEC LoRa Gateway"			// Name of the gateway
+#define _EMAIL "egil@me-consult.no"		// Owner
 #define _PLATFORM "ESP8266"
-#define _LAT 52.200000
-#define _LON 5.90000
-#define _ALT 1								// Altitude
+#define _LAT 58.130432
+#define _LON 8.07403519
+#define _ALT 20								// Altitude
 
 
 // For asserting and testing the following defines are used.
